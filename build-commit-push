@@ -5,6 +5,8 @@ set -e
 cd ../kaluli
 PUBLIC_URL='/kaluli-www/' npm run build
 cd ../kaluli-www
+rm -rf ./css ./js
 cp -rf ../kaluli/build/* .
+git add --all
 git commit -am 'commit'
 git push -u origin main
