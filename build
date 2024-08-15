@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -e
+
+cd ../kaluli
+npm run build
+cd ../kaluli-www
+cp ../kaluli/build/* .
