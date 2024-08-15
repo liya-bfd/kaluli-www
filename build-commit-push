@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+set -e
+
+cd ../kaluli
+npm run build
+cd ../kaluli-www
+cp -rf ../kaluli/build/* .
+git commit -am 'commit'
+git push -u origin main
