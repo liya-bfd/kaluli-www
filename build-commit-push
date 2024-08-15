@@ -3,7 +3,7 @@
 set -e
 
 cd ../kaluli
-npm run build
+PUBLIC_URL='/kaluli-www/' npm run build
 cd ../kaluli-www
 cp -rf ../kaluli/build/* .
 git commit -am 'commit'
