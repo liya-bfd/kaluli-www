@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/kaluli-www/static/css/main.7ac12cb5.css",
-    "main.js": "/kaluli-www/static/js/main.44bd439c.js",
+    "main.js": "/kaluli-www/static/js/main.f72a6f33.js",
     "service-worker.js": "/kaluli-www/service-worker.js",
     "index.html": "/kaluli-www/index.html",
     "main.7ac12cb5.css.map": "/kaluli-www/static/css/main.7ac12cb5.css.map",
-    "main.44bd439c.js.map": "/kaluli-www/static/js/main.44bd439c.js.map"
+    "main.f72a6f33.js.map": "/kaluli-www/static/js/main.f72a6f33.js.map"
   },
   "entrypoints": [
     "static/css/main.7ac12cb5.css",
-    "static/js/main.44bd439c.js"
+    "static/js/main.f72a6f33.js"
   ]
 }
